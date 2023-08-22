@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="StudentOne" class="com.atguigu.spring.pojo.Student">
+        <property name="sid" value="1"></property>
+        <property name="sname" value="张三"></property>
+        <property name="age" value="18"></property>
+        <property name="gender" value="男"></property>
+    </bean>
+
+    <bean id="StudentTwo" class="com.atguigu.spring.pojo.Student">
+        <constructor-arg value="2"></constructor-arg>
+        <constructor-arg value="李四"></constructor-arg>
+        <constructor-arg value="20"></constructor-arg>
+        <constructor-arg value="女"></constructor-arg>
+        <constructor-arg ref="clazz"></constructor-arg>
+    </bean>
+
+    <bean id="clazz" class="com.atguigu.spring.pojo.Clazz" >
+        <property name="clazzId" value="1001"></property>
+        <property name="clazzName" value="嘴强王者班"></property>
+    </bean>
+
+    <bean id="StudentThree" class="com.atguigu.spring.pojo.Student">
+        <property name="sid" value="3"></property>
+        <property name="sname" value="王五"></property>
+        <property name="age" value="24"></property>
+        <property name="gender" value="男"></property>
+        <property name="clazz" >
+            <bean id="clazz" class="com.atguigu.spring.pojo.Clazz" >
+                <property name="clazzId" value="1001"></property>
+                <property name="clazzName" value="王者荣耀班"></property>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="clazzOne" class="com.atguigu.spring.pojo.Clazz" >
+            <property name="clazzId" value="1001"></property>
+            <property name="clazzName" value="王者荣耀班"></property>
+            <property name="students">
+                <list>
+                    <ref bean="StudentOne"></ref>
+                    <ref bean="StudentTwo"></ref>
+                </list>
+            </property>
+    </bean>
+
+    <bean id="clazzTwo" class="com.atguigu.spring.pojo.Clazz" >
+        <property name="clazzId" value="1001"></property>
+        <property name="clazzName" value="王者荣耀班"></property>
+        <property name="students" ref="studentlist"></property>
+    </bean>
+
+    <util:list id="studentlist">
+        <ref bean="StudentOne"></ref>
+        <ref bean="StudentTwo"></ref>
+        <ref bean="StudentThree"></ref>
+    </util:list>
+
+
+
+
+
+
+
+
+</beans>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis-HelloWorld/mybatis-HelloWorld.iml" filepath="$PROJECT_DIR$/mybatis-HelloWorld/mybatis-HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-cache/mybatis-cache.iml" filepath="$PROJECT_DIR$/mybatis-cache/mybatis-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-dynamicSQL/mybatis-dynamicSQL.iml" filepath="$PROJECT_DIR$/mybatis-dynamicSQL/mybatis-dynamicSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-mbg/mybatis-mbg.iml" filepath="$PROJECT_DIR$/mybatis-mbg/mybatis-mbg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-parameter/mybatis-parameter.iml" filepath="$PROJECT_DIR$/mybatis-parameter/mybatis-parameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-resultMap/mybatis-resultMap.iml" filepath="$PROJECT_DIR$/mybatis-resultMap/mybatis-resultMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-helloworld/spring-helloworld.iml" filepath="$PROJECT_DIR$/spring-helloworld/spring-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ioc-annotation/spring-ioc-annotation.iml" filepath="$PROJECT_DIR$/spring-ioc-annotation/spring-ioc-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ioc-xml/spring-ioc-xml.iml" filepath="$PROJECT_DIR$/spring-ioc-xml/spring-ioc-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-listener/spring-listener.iml" filepath="$PROJECT_DIR$/spring-listener/spring-listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-ajax/spring-mvc-ajax.iml" filepath="$PROJECT_DIR$/spring-mvc-ajax/spring-mvc-ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-annotation/spring-mvc-annotation.iml" filepath="$PROJECT_DIR$/spring-mvc-annotation/spring-mvc-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-demo/spring-mvc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-extension/spring-mvc-extension.iml" filepath="$PROJECT_DIR$/spring-mvc-extension/spring-mvc-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-helloworld/spring-mvc-helloworld.iml" filepath="$PROJECT_DIR$/spring-mvc-helloworld/spring-mvc-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-rest/spring-mvc-rest.iml" filepath="$PROJECT_DIR$/spring-mvc-rest/spring-mvc-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-proxy/spring-proxy.iml" filepath="$PROJECT_DIR$/spring-proxy/spring-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-transaction/spring-transaction.iml" filepath="$PROJECT_DIR$/spring-transaction/spring-transaction.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atguigu.mybatis.mapper.UserMapper">
+<!--    mapper接口和映射文件要做到两个一致-->
+<!--    mapper接口的全类名必须和映射文件的namespace保持一致-->
+<!--    mapper接口中的方法名必须和映射文件的sql的id保持一致-->
+<!--    从而实现mybatis中根据配置文件里写sql语句，但能进行操作数据库的操作-->
+<!--    核心流程：一旦配置文件完成，SqlSession会根据namespace.sqlid找到唯一的sql语句进行执行
+获取到mapper接口中的代理类,mybatis就会根据代理类找到namespace中对应全类名的接口；
+且调用mapper接口中的方法，mybatis会根据方法名——>找到配置文件——>找到同id名sql语句进行执行-->
+    <!--int insertUser();-->
+    <insert id="insertUser">
+        insert into t_user values(null,'admin','123456',23,'男','12345@qq.com')
+    </insert>
+<!--    void updateUser();-->
+    <update id="updateUser">
+        update t_user set username='root' ,password='123' where id=3
+    </update>
+<!--    void deleteUser();-->
+    <delete id="deleteUser">
+        delete from t_user where id=3
+    </delete>
+<!--    User getUserById-->
+    <select id="getUserById"  resultType="com.atguigu.mybatis.pojo.User">
+        select * from t_user where id=2
+    </select>
+<!--    List<User> getAllUsers()-->
+    <select id="getAllUsers" resultType="User" >
+        select * from t_user
+    </select>
+</mapper>

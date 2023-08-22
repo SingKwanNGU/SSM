@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SSM</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mybatis-HelloWorld</module>
+        <module>mybatis-parameter</module>
+        <module>mybatis-resultMap</module>
+        <module>mybatis-dynamicSQL</module>
+        <module>mybatis-cache</module>
+        <module>mybatis-mbg</module>
+        <module>spring-helloworld</module>
+        <module>spring-ioc-xml</module>
+        <module>spring-ioc-annotation</module>
+        <module>spring-proxy</module>
+        <module>spring-aop</module>
+        <module>spring-transaction</module>
+        <module>spring-mvc-helloworld</module>
+        <module>spring-mvc-demo</module>
+        <module>spring-mvc-rest</module>
+        <module>spring-mvc-ajax</module>
+        <module>spring-mvc-extension</module>
+        <module>spring-mvc-annotation</module>
+        <module>spring-listener</module>
+        <module>ssm</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>

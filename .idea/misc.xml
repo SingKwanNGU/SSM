@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-listener" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-ajax" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-annotation" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-extension" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-helloworld" />
+    <file type="web" url="file://$PROJECT_DIR$/spring-mvc-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/SSM2.0" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mvc-helloworld/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
